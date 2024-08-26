@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Almarai", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+h1,h2,h3,h4{
+
+    font-style: oblique;
+}
+
+p{
+    font-style: oblique;
+}
+
+
+
+
+}
+.first{
+background-image: url(./images/images/bg-header-desktop.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 200px;
+}
+
+.first .block{
+text-align: center;
+}
+
+.first .logo img{
+
+    height: 82px;
+    width: 82px;
+    
+}
+
+
+
+
+.first .text-content{
+
+    width: 600px;
+}
+.first .action-buttons{
+    display: flex;
+    text-align: center;
+    gap:20px;
+    justify-content: center;
+    
+}
+
+.first .action-buttons .action-button1{
+    
+    border: 3px solid black;
+    border-radius: 30px;
+    height: 20px;
+    padding:11px;
+    background-color: #324eed;
+    
+    
+}
+.first .action-buttons .action-button2{
+    
+    border: 3px solid black;
+    border-radius: 30px;
+    height: 20px;
+    padding:11px;
+    background-color: #324eed;
+}
+.second{
+
+    padding: 60px;
+}
+
+.second .header-content{
+
+    padding-top: 300px;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.second .block{
+    display: flex;
+    justify-content: center;
+    padding-top :40px;
+}
+.info-card img{
+color: red;
+    padding-left: 80px;
+
+
+}
+
+.second .info-details{
+
+    flex-direction: column;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 500;
+}
+
+.lol{
+    text-align: center;
+    padding:124px;
+}
+
+.lol .info img{
+
+    width: 100%;
+    
+}
+.block1{
+
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.bold .text-content3{
+
+    text-align: center;
+    padding: 64px;
+}
+.bold{
+    padding: 90px;
+}
+
+.shift .sshift{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ .shift{
+    margin: 134px;
+    box-sizing: content-box;
+    padding-top: 90px;
+ }
+
+.shift .sshift img{
+
+    width: 100px;
+}
